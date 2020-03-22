@@ -1,0 +1,18 @@
+.navbar {}
+
+element.style {}
+
+@media (max-width: 767px) .hero-area {
+    padding: 200px 0 150px;
+    overflow: hidden;
+}
+
+.hero-area {
+    padding: 250px 0 200px;
+    position: relative;
+    color: black;
+}
+
+.bg-primary {
+    background: white!important;
+}
