@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template
 import os
 from os import path
@@ -14,7 +15,3 @@ APP = Flask(__name__)
 def hello_world():
     return render_template('pages/index.html')
 
-if __name__ == '__main__':
-    APP.run(host=os.environ.get('HOSTNAME'),
-            port=int(os.environ.get('PORT')),
-            debug=os.environ.get('DEV'))
