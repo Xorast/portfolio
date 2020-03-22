@@ -74,4 +74,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - I received inspiration for this project from X
 - [Simen Daehlin](https://github.com/Eventyret) - [The Padwan Project](https://github.com/Eventyret/Padawan)
-  https://www.typewolf.com/top-10-helvetica-alternatives
+https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat
