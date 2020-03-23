@@ -58,3 +58,17 @@ a {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
 }
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: inherit;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+}
