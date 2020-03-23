@@ -53,16 +53,26 @@
     </section>
 
     <div class="jumbotron" id="skills">
-        <div class="container">
-            <h1>Skills</h1>
-            <div class="chart" data-percent="90">HTML5</div>
-            <div class="chart" data-percent="30">CSS3</div>
-            <div class="chart" data-percent="60">Vanilla JS</div>
-            <div class="chart" data-percent="50">jQuery</div>
-            <div class="chart" data-percent="10">ReactJS</div>
 
+        <div class="progress-holder" id="pswhole">
+            <svg width="150px" height="150px">
+			 <circle class="progress-circle one" cx="60px" cy="60px" r="50"/>
+			 <circle class="progress-circle one fullchaser" id="ps" cx="60px" cy="60px" r="50"/>
+			</svg>
+            <div class="label one" id="ps">
+                <span>PS</span>
+            </div>
         </div>
 
+        <div class="progress-holder">
+            <svg width="150px" height="150px">
+			 <circle class="progress-circle two" cx="60px" cy="60px" r="50"/>
+			 <circle class="progress-circle two halfchaser" cx="60px" cy="60px" r="50"/>
+			</svg>
+            <div class="label two">
+                <span id="nudgeright">AI</span>
+            </div>
+        </div>
     </div>
 
 
