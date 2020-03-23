@@ -204,7 +204,7 @@
         line-height: 7px;
         text-align: center;
         color: #fafafa;
-        background: #116466;
+        background: #999899;
         transition: all 0.35s ease-in-out;
         -moz-transition: all 0.35s ease-in-out;
         -webkit-transition: all 0.35s ease-in-out;
@@ -224,7 +224,7 @@
     }
     
     .button {
-        background-color: #116466;
+        background-color: #999899;
         border-radius: 5px;
         color: white;
         padding: 15px 32px;
