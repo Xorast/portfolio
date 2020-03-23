@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+.bg-light {
+    background-color: #fff!important;
+}
+
 .jumbotron {
     margin-bottom: 0.1em !important;
     background-color: #fff;
     border-radius: .3rem;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 #yellow {
