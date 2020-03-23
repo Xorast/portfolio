@@ -87,6 +87,21 @@
         animation-delay: 1s;
     }
     
+    .label.three {
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+    }
+    
+    .label.four {
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+    }
+    
+    .label.five {
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+    }
+    
     .fullchaser {
         stroke: #999899;
         stroke-width: 11px;
