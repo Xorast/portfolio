@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
 .bg-light {
     background-color: #fff!important;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron {
