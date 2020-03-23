@@ -2,7 +2,7 @@
 
 /* Navbar */
 
-.buttonLogin {
+.button {
     box-sizing: border-box;
     height: 50px;
     width: 200px;
@@ -10,34 +10,35 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.55);
-    transition: background .5s;
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
     cursor: pointer;
 }
 
-span {
+.button span {
     width: 100%;
     height: 100%;
     padding: 20px;
-    color: $button-color;
-    box-shadow: 0 0 0 3px $button-color inset;
+    color: #2d3142;
+    box-shadow: 0 0 0 3px #2d3142 inset;
     background: transparent;
 }
 
-.away {
+.button .away {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
 
-.over {
+.button .over {
     display: none;
 }
 
-&:hover span.away {
+.button:hover span.away {
     display: none;
 }
 
-&:hover span.over {
+.button:hover span.over {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -45,22 +46,23 @@ span {
     box-shadow: none;
 }
 
-&:hover {
-    background: $button-color;
+.button:hover {
+    background: #2d3142;
 }
 
-
-}
 .bg-light {
     background-color: #fff!important;
 }
+
 a {
     font-family: 'Montserrat', sans-serif;
 }
+
 .hero-area {
     padding: 250px 0 200px;
     position: relative;
 }
+
 .jumbotron {
     margin-bottom: 0.1em !important;
     background-color: #fff;
@@ -68,17 +70,20 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
+
 #skills {
     background-color: yellow;
     padding: 50px;
     text-align: center;
 }
+
 .progress-holder {
     display: inline-block;
     width: 120px;
     height: 120px;
     margin: 50px 0px 0px 50px;
 }
+
 .label {
     opacity: 0;
     font-family: sans-serif;
@@ -94,11 +99,14 @@ a {
     -webkit-animation: textin 4s forwards;
     animation: textin 4s forwards;
 }
+
 #nudgeright {
     margin-left: 6px;
 }
 
+
 /*Animation*/
+
 .progress-circle {
     fill: transparent;
     stroke: white;
@@ -110,35 +118,43 @@ a {
     -webkit-animation: full 2s forwards;
     animation: full 2s forwards;
 }
+
 .progress-circle.one {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
 }
+
 .label.one {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
     transition: color 0.4s ease-in-out;
 }
+
 .progress-circle.two {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
+
 .label.two {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
+
 .label.three {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
+
 .label.four {
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
 }
+
 .label.five {
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
 }
+
 .fullchaser {
     stroke: #999899;
     stroke-width: 11px;
@@ -146,6 +162,7 @@ a {
     animation: fullchase 3s forwards;
     transition: all 0.4s ease-in-out;
 }
+
 .halfchaser {
     stroke: #999899;
     stroke-width: 11px;
@@ -153,83 +170,86 @@ a {
     animation: halfchase 3s forwards;
     transition: all 0.4s ease-in-out;
 }
+
 @-webkit-keyframes full {
     from {
         stroke-dashoffset: 360;
     }
-    
     to {
         stroke-dashoffset: 0;
     }
 }
+
 @keyframes full {
     from {
         stroke-dashoffset: 360;
     }
-    
     to {
         stroke-dashoffset: 0;
     }
 }
+
 @-webkit-keyframes fullchase {
     from {
         stroke-dashoffset: 360;
     }
-    
     to {
         stroke-dashoffset: 60;
     }
 }
+
 @keyframes fullchase {
     from {
         stroke-dashoffset: 360;
     }
-    
     to {
         stroke-dashoffset: 60;
     }
 }
+
 @-webkit-keyframes halfchase {
     from {
         stroke-dashoffset: 360;
     }
-    
     to {
         stroke-dashoffset: 200;
     }
 }
+
 @keyframes halfchase {
     from {
         stroke-dashoffset: 360;
     }
-    
     to {
         stroke-dashoffset: 200;
     }
 }
+
 @-webkit-keyframes textin {
     0% {
         opacity: 0;
     }
-    
-    100% {
-        opacity: 1;
-    }
-}
-@keyframes textin {
-    0% {
-        opacity: 0;
-    }
-    
     100% {
         opacity: 1;
     }
 }
 
+@keyframes textin {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 /* Footer */
+
 .social-links {
     padding-bottom: 15px;
 }
+
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -245,15 +265,19 @@ a {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 .social-links li a i:hover {
     background: #2b2b2b;
 }
+
 #follow-negative-space {
     margin-top: 190px;
 }
+
 #icons-negative-space {
     margin-top: 30px
 }
+
 .buttonSend {
     background-color: #999899;
     border-radius: 5px;
@@ -264,9 +288,11 @@ a {
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .button:hover {
     background-color: #343a40;
 }
+
 .btn-info {
     background-color: #166466;
     border-radius: 5px;
@@ -277,6 +303,7 @@ a {
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .btn-info:hover {
     background-color: #343a40;
 }
