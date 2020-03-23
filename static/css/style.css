@@ -1,40 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
-.bg-light {
-    background-color: #fff!important;
-}
-
-a {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.hero-area {
-    padding: 250px 0 200px;
-    position: relative;
-}
-
-.jumbotron {
-    margin-bottom: 0.1em !important;
-    background-color: #fff;
-    border-radius: .3rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-}
-
-#skills {
-    background-color: yellow;
-}
-
-.chart {
-    position: relative;
-    display: inline-block;
-    margin: 20px 10px;
-    color: #999;
-    font-size: 14px;
-    text-align: center;
-}
-
-.chart canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+    .bg-light {
+        background-color: #fff!important;
+    }
+    
+    a {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .hero-area {
+        padding: 250px 0 200px;
+        position: relative;
+    }
+    
+    .jumbotron {
+        margin-bottom: 0.1em !important;
+        background-color: #fff;
+        border-radius: .3rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+    }
+    
+    #skills {
+        background-color: yellow;
+    }
+    
+    .chart {
+        position: relative;
+        display: inline-block;
+        margin: 20px 10px;
+        color: #999;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }

@@ -1,11 +1,10 @@
 $(function() {
     $('.chart').easyPieChart({
-        scaleColor: "#ecf0f1",
-        lineWidth: 20,
-        lineCap: 'butt',
-        barColor: '#000806',
-        trackColor: "#ecf0f1",
-        size: 160,
+        scaleColor: false,
+        lineWidth: 10,
+        lineCap: 'round',
+        barColor: '#333',
+        size: 150,
         animate: 500
     });
 });
