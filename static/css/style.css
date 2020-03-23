@@ -7,6 +7,11 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
+.hero-area {
+    padding: 250px 0 200px;
+    position: relative;
+}
+
 .jumbotron {
     margin-bottom: 0.1em !important;
     background-color: #fff;
