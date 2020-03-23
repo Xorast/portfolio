@@ -75,3 +75,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 - I received inspiration for this project from X
 - [Simen Daehlin](https://github.com/Eventyret) - [The Padwan Project](https://github.com/Eventyret/Padawan)
 https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat
+https://code.visualstudio.com/docs/python/environments
