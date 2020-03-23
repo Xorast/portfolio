@@ -109,3 +109,75 @@
         transition: all 0.4s ease-in-out;
         fill: white;
     }
+    
+    @-webkit-keyframes full {
+        from {
+            stroke-dashoffset: 360;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes full {
+        from {
+            stroke-dashoffset: 360;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @-webkit-keyframes fullchase {
+        from {
+            stroke-dashoffset: 360;
+        }
+        to {
+            stroke-dashoffset: 60;
+        }
+    }
+    
+    @keyframes fullchase {
+        from {
+            stroke-dashoffset: 360;
+        }
+        to {
+            stroke-dashoffset: 60;
+        }
+    }
+    
+    @-webkit-keyframes halfchase {
+        from {
+            stroke-dashoffset: 360;
+        }
+        to {
+            stroke-dashoffset: 200;
+        }
+    }
+    
+    @keyframes halfchase {
+        from {
+            stroke-dashoffset: 360;
+        }
+        to {
+            stroke-dashoffset: 200;
+        }
+    }
+    
+    @-webkit-keyframes textin {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes textin {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
