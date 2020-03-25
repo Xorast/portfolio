@@ -9,7 +9,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 MONGO_DBNAME = os.environ.get('MONGO_DBNAME')
 MONGO_URI = os.environ.get('MONGO_URI')
 
-client = pymongo.MongoClient(<Atlas connection string>)
 
 APP = Flask(__name__)
 
