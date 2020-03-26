@@ -308,3 +308,14 @@ a {
 .btn-info:hover {
     background-color: #343a40;
 }
+
+#projects button {
+    background: var(--primary);
+    height: 50px;
+    border: none;
+    transition: all 300ms ease-in-out;
+}
+
+#projects button:hover {
+    color: var(--accent);
+}
