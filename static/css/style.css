@@ -48,7 +48,7 @@
 }
 
 .button:hover {
-    background: #2d3142;
+    background: #E28413;
 }
 
 .bg-light {
@@ -73,7 +73,7 @@ a {
 }
 
 #skills {
-    background-color: #FF6F00;
+    background-color: #000022;
     padding: 50px;
     text-align: center;
 }
@@ -94,8 +94,6 @@ a {
     color: white;
     display: inline;
     position: absolute;
-    width 20px;
-    height: 20px;
     margin: -117px auto 0 33px;
     -webkit-animation: textin 4s forwards;
     animation: textin 4s forwards;
