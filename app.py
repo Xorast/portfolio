@@ -12,9 +12,9 @@ MONGO_URI = os.environ.get('MONGO_URI')
 
 if __name__ == '__main__':
 
-  APP = Flask(__name__)
+  app = Flask(__name__)
 
-@APP.route('/')
+@app.route('/')
 def hello_world():
     return render_template('pages/index.html')
 
