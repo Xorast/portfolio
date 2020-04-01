@@ -10,13 +10,13 @@ MONGO_DBNAME = os.environ.get('MONGO_DBNAME')
 MONGO_URI = os.environ.get('MONGO_URI')
 
 
-if __name__ == '__main__':
-  app.run(host=os.environ.get('HOSTNAME'),
-            port=int(os.environ.get('PORT')),
-            debug=os.environ.get('DEV'))
-  app = Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
     return render_template('pages/index.html')
-
+    
+if __name__ == '__main__':
+      app.run(host=os.environ.get('HOSTNAME'),
+            port=int(os.environ.get('PORT')),
+            debug=os.environ.get('DEV'))
