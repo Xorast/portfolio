@@ -11,9 +11,7 @@ MONGO_URI = os.environ.get('MONGO_URI')
 
 
 if __name__ == '__main__':
-    APP.run(host=os.environ.get('HOSTNAME'),
-            port=int(os.environ.get('PORT')),
-            debug=os.environ.get('DEV'))
+
 
 APP = Flask(__name__)
 
